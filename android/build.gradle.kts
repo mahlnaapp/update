@@ -3,8 +3,8 @@
 // هذا الجزء مهم لتعريف المكونات الإضافية التي تستخدمها جميع الوحدات النمطية
 plugins {
     // 1. المكون الإضافي لـ Android Gradle Plugin (AGP) - يجب تحديثه
-    id("com.android.application") version "8.4.1" apply false
-    id("com.android.library") version "8.4.1" apply false
+    id("com.android.application")  apply false
+    id("com.android.library")  apply false
     
     // 2. المكون الإضافي لـ Kotlin - يجب تحديثه
     id("org.jetbrains.kotlin.android") version "1.9.22" apply false
