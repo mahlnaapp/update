@@ -83,7 +83,7 @@ dependencies {
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.0")
     
     // Firebase BoM
-    implementation(platform("com.google.firebase:firebase-bom:34.4.0"))
+    implementation(platform("com.google.firebase:firebase-bom:24.0.0"))
     
     // Firebase Packages
     implementation("com.google.firebase:firebase-analytics")
