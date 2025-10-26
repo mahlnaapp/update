@@ -7,10 +7,10 @@ plugins {
     id("com.android.library")  apply false
     
     // 2. المكون الإضافي لـ Kotlin - يجب تحديثه
-    id("org.jetbrains.kotlin.android") version "1.9.22" apply false
+    id("org.jetbrains.kotlin.android") version "2.1.0" apply false
     
     // 3. المكون الإضافي لخدمات Google (Firebase)
-    id("com.google.gms.google-services") version "4.4.2" apply false // يفضل استخدام 4.4.2 أو الأحدث (4.4.4 جيد)
+    id("com.google.gms.google-services") version "4.4.4" apply false // يفضل استخدام 4.4.2 أو الأحدث (4.4.4 جيد)
 }
 
 // -----------------------------------------------------------
