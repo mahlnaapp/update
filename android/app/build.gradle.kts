@@ -4,12 +4,10 @@ import java.util.Properties
 import java.io.FileInputStream
 
 plugins {
-    id("com.android.application")
-    id("kotlin-android")
-    id("dev.flutter.flutter-gradle-plugin") // Flutter plugin
-    
-    // تطبيق المكون الإضافي لخدمات Google هنا (بدون تحديد الإصدار)
-    id("com.google.gms.google-services")
+    id("com.android.application")
+    id("kotlin-android")
+    id("dev.flutter.flutter-gradle-plugin") // Flutter plugin
+    id("com.google.gms.google-services") // تطبيق المكون الإضافي لخدمات Google هنا
 }
 
 android {
